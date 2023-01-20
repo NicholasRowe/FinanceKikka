@@ -2,9 +2,7 @@ import React from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
+
 
 const Intro = ( {data} ) => {
    const textData = data.data

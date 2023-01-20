@@ -3,9 +3,7 @@ import Button from '../utilities/button'
 import * as styles from './calculator.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
+
 
 const Calculator = ({btnUrl,btnLabel}) => {
     const [purchase,setPurchase] = useState(500000)

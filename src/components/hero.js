@@ -4,9 +4,7 @@ import Navigation from './navigation'
 import Button from '../utilities/button'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
+
 const Hero = ({ image, title, description,btnUrl,btnLabel }) => {
   const descriptionParsed = JSON.parse(description)
 //   // raw description is data{ content : [

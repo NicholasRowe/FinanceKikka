@@ -5,9 +5,7 @@ import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-brands-svg-i
 import Logo from '../utilities/logo'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
+
 
 const data = [
   {
